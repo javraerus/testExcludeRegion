@@ -17,12 +17,7 @@ try
                             print "Stage '${stageName}' is running on machine = ${env.NODE_NAME}"
                             def gitId=env.GitCredentialId_CHZRHTAF_LAU
                             echo "gitId=${gitId}"
-                            /*
-                            checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false,
-                                      extensions: [[$class: 'RelativeTargetDirectory', relativeTargetDir: "${sharedSolutionCheckoutDir}"]],
-                                      submoduleCfg: [], userRemoteConfigs: [[credentialsId: '', url: 'git@git:efgfp/.git']]])
-
-                            */
+  
                         }
 
 
