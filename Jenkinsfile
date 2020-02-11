@@ -57,7 +57,7 @@ try
                 print "----------------------------------------------------------------------------------------------------------------------------"
                 stage ("${stageName}")
                         {
-                            print "Stage '${stageName}' is running on machine = ${env.NODE_NAME}"
+                            print "Stage '${stageName}' is running on macfffffhine = ${env.NODE_NAME}"
 
                         }
             }
