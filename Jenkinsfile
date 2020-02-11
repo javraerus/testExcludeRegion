@@ -33,7 +33,7 @@ try
                         {
                             print "Stage '${stageName}' is running on machine = ${env.NODE_NAME}"
                             def msbuild = tool name: 'VS2019MSBuild_MasterLocal', type: 'hudson.plugins.msbuild.MsBuildInstallation'
-                            bat "\"${msbuild}\\msbuild.exe\" \"${sharedSolutionCheckoutDir}\\TAF.Logdddddger\\TAF.Logger.sln\"  /t:restore /p:Configuration=Release "
+                            bat "\"${msbuild}\\msbuild.exe\" \"${sharedSolutionCheckoutDir}\\TAF.Logdddllddger\\TAF.Logger.sln\"  /t:restore /p:Configuration=Release "
                         }
 
                 stageName="Build"
