@@ -1,4 +1,5 @@
 /*@Library('externalSharedLibrary@master') _*/
+properties([pipelineTriggers([githubPush()])])
 
 try
 {
