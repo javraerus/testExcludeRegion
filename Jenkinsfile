@@ -72,6 +72,6 @@ catch (caughtError)
 finally {
     if (currentBuild.result != "SUCCESS")
     {
-        emailHelper.notifySuccessful(currentBuild.result)
+        print "hola"
     }
 }
