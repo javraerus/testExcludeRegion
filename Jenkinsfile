@@ -4,7 +4,7 @@ properties([pipelineTriggers([githubPush()])])
 try
 {
     def sharedSolutionCheckoutDir="\\\\CHVIRTAFPRD102\\Auto\\Tests\\bin\\tempCoreLogger"
-    print "mdf"
+    print "mdff"
     node ('master') /*it should be run on a node with git client installed and proper msbuild*/
             {
                 environment {
