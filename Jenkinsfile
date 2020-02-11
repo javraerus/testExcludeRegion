@@ -20,7 +20,7 @@ try
 
                             checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false,
                                       extensions: [[$class: 'RelativeTargetDirectory', relativeTargetDir: "${sharedSolutionCheckoutDir}"]],
-                                      submoduleCfg: [], userRemoteConfigs: [[credentialsId: 'SShKey29Jan2020forJenkins', url: 'git@git:efgfp/TAFSeleniumTests.git']]])
+                                      submoduleCfg: [], userRemoteConfigs: [[credentialsId: '', url: 'git@git:efgfp/.git']]])
 
 
                         }
