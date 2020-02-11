@@ -14,7 +14,7 @@ try
                 print "----------------------------------------------------------------------------------------------------------------------------"
                 stage ("${stageName}")
                         {
-                            print "Stage '${stageName}' is running on machine = ${env.NODE_NAME}"
+                            print "Stage '${stageName}' is runningsssss on machine = ${env.NODE_NAME}"
                             def gitId=env.GitCredentialId_CHZRHTAF_LAU
                             echo "gitId=${gitId}"
   
